@@ -1,0 +1,23 @@
+# User/Group ID - leave blank for using defaults
+CFG_SYSUSR_MYSQL_USER_ID=
+CFG_SYSUSR_MYSQL_GROUP_ID=
+
+# DB root password - if left blank you'll have to set it manually from with the Docker Container
+# the password will be set only if the DB hasn't been already initialized
+CFG_DB_ROOT_PASSWORD="abcd"
+
+# If you'd like to create a DB scheme when the DB hasn't been already initialized
+# you may use these config values for automaticly creating one when the Docker Container is started
+CFG_DB_USER_NAME="maniac"
+CFG_DB_USER_PASS="extreme"
+CFG_DB_SCHEME_NAME="example"
+CFG_ENABLE_DB_INIT_DEBUG=false
+
+#
+#CFG_LANG="de_DE.UTF-8"
+#CFG_TIMEZONE="Europe/Berlin"
+
+#
+#CF_MYSQL_MAX_ALLOWED_PACKET="128M"
+#CF_MYSQL_INNODB_BUFFER_POOL_SIZE="4G"
+#CF_MYSQL_INNODB_LOG_FILE_SIZE="64M"
