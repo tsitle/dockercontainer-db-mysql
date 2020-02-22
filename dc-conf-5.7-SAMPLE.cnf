@@ -6,11 +6,11 @@ CFG_SYSUSR_MYSQL_GROUP_ID=
 # the password will be set only if the DB hasn't been already initialized
 CFG_DB_ROOT_PASSWORD="abcd"
 
-# If you'd like to create a DB scheme when the DB hasn't been already initialized
+# If you'd like to create a DB schema when the DB hasn't been already initialized
 # you may use these config values for automaticly creating one when the Docker Container is started
 CFG_DB_USER_NAME="maniac"
 CFG_DB_USER_PASS="extreme"
-CFG_DB_SCHEME_NAME="example"
+CFG_DB_SCHEMA_NAME="example"
 CFG_ENABLE_DB_INIT_DEBUG=false
 
 #
